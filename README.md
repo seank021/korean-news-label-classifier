@@ -1,24 +1,24 @@
 # korean-news-label-classifier
 
-## Tokenizer
+### Tokenizer
 Mecab
 
-## Model
+### Model
 CNN
 
-## Embeddings
+### Embeddings
 Pretained Embeddings (Word2Vec)
 
-## Accuracy
+### Accuracy
 Epoch: 5, Train Acc: 81.49%, Valid Acc: 74.22%
 Test Acc: 76.28%
 
-## Predicting by user inputs
+### Predicting by user inputs
 Got 6 correct out of 9 (67% accuracy)
 
-## Regarding torchtext
+### Regarding torchtext...
 While doing this project, since the update issue of colab environment, it was unable to use torchtext version which supports 'Field' functions.
 So this project is not using torchtext version.
 
-## Reference
+### Reference
 https://github.com/bentrevett/pytorch-sentiment-analysis
